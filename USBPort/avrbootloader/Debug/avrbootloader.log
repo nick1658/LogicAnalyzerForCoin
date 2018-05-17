@@ -1,0 +1,30 @@
+﻿生成启动时间为 2011/8/3 14:57:35。
+     1>项目“E:\Java_projects\LogicAnalyzer\USBPort\avrbootloader\avrbootloader.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\avrbootloader.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>e:\java_projects\logicanalyzer\usbport\avrbootloader\main.c(49): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\java_projects\logicanalyzer\usbport\avrbootloader\main.c(51): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(157) : 参见“strerror”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Java_projects\LogicAnalyzer\USBPort\Debug\avrbootloader.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\avrbootloader.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Java_projects\LogicAnalyzer\USBPort\Debug\avrbootloader.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Java_projects\LogicAnalyzer\USBPort\Debug\avrbootloader.lib" /MACHINE:X86 Debug\avrbootloader.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\avrbootloader.exe.embed.manifest" /manifest Debug\avrbootloader.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         avrbootloader.vcxproj -> E:\Java_projects\LogicAnalyzer\USBPort\Debug\avrbootloader.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\avrbootloader.unsuccessfulbuild”。
+         正在对“Debug\avrbootloader.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Java_projects\LogicAnalyzer\USBPort\avrbootloader\avrbootloader.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10

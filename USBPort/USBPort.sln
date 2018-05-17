@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "USBPort", "USBPort\USBPort.vcxproj", "{B4067984-517F-4A04-8CEE-D0982E94B899}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "USBDll", "..\USBDll\USBDll.vcxproj", "{A7BD3BEE-3056-4F46-98AF-F2FFA66014C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "avrbootloader", "avrbootloader\avrbootloader.vcxproj", "{C56423EC-1DFF-4E46-A5C6-43C3E3418391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4067984-517F-4A04-8CEE-D0982E94B899}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4067984-517F-4A04-8CEE-D0982E94B899}.Debug|Win32.Build.0 = Debug|Win32
+		{B4067984-517F-4A04-8CEE-D0982E94B899}.Release|Win32.ActiveCfg = Release|Win32
+		{B4067984-517F-4A04-8CEE-D0982E94B899}.Release|Win32.Build.0 = Release|Win32
+		{A7BD3BEE-3056-4F46-98AF-F2FFA66014C7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7BD3BEE-3056-4F46-98AF-F2FFA66014C7}.Debug|Win32.Build.0 = Debug|Win32
+		{A7BD3BEE-3056-4F46-98AF-F2FFA66014C7}.Release|Win32.ActiveCfg = Release|Win32
+		{A7BD3BEE-3056-4F46-98AF-F2FFA66014C7}.Release|Win32.Build.0 = Release|Win32
+		{C56423EC-1DFF-4E46-A5C6-43C3E3418391}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C56423EC-1DFF-4E46-A5C6-43C3E3418391}.Debug|Win32.Build.0 = Debug|Win32
+		{C56423EC-1DFF-4E46-A5C6-43C3E3418391}.Release|Win32.ActiveCfg = Release|Win32
+		{C56423EC-1DFF-4E46-A5C6-43C3E3418391}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
